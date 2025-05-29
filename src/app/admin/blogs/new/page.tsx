@@ -60,7 +60,6 @@ export default function NewBlogPage() {
         throw new Error(errorData.error || 'Failed to create blog post');
       }
 
-      const blog = await response.json();
       router.push('/admin/blogs');
     } catch (err) {
       setError(err instanceof Error ? err.message : 'An unknown error occurred');

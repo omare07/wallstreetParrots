@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { getPublishedBlogPosts } from '@/lib/services/blog-service';
 import { BlogPost } from '@/lib/models/blog';
 

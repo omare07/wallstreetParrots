@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getMediaStats } from '@/lib/server/media-service';
 
 // GET /api/media/stats
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const stats = getMediaStats();
     return NextResponse.json(stats);

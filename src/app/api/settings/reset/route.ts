@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { resetSettings } from '@/lib/server/settings-service';
 
 // POST /api/settings/reset
-export async function POST(request: NextRequest) {
+export async function POST(_request: NextRequest) {
   try {
     const defaultSettings = resetSettings();
     return NextResponse.json(defaultSettings);

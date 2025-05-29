@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getBlogStats } from '@/lib/server/blog-service';
 
 // GET /api/blogs/stats
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const stats = getBlogStats();
     return NextResponse.json(stats);

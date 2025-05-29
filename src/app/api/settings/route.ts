@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getSettings, updateSettings } from '@/lib/server/settings-service';
 
 // GET /api/settings
-export async function GET(request: NextRequest) {
+export async function GET(_request: NextRequest) {
   try {
     const settings = getSettings();
     return NextResponse.json(settings);

@@ -73,7 +73,8 @@ export default function EditBlogPage({ params }: EditBlogPageProps) {
 
     try {
       // Remove id from the data we send to the API
-      const { id, ...updateData } = formData;
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      const { id: _, ...updateData } = formData;
       
       const response = await fetch(`/api/blogs/${params.id}`, {
         method: 'PATCH',
