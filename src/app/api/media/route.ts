@@ -2,7 +2,7 @@ import { NextRequest, NextResponse } from 'next/server';
 import { getAllMediaItems, saveMediaFile } from '@/lib/server/media-service';
 
 // GET /api/media - Get all media items
-export async function GET(_request: NextRequest) {
+export async function GET() {
   try {
     const media = getAllMediaItems();
     return NextResponse.json(media);
