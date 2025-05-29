@@ -216,7 +216,7 @@ export default function Home() {
                     </Link>
                   </h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-4 line-clamp-2">
-                    Recap of our club's recent field trip to Wall Street and lessons learned from industry professionals.
+                    Recap of our club&apos;s recent field trip to Wall Street and lessons learned from industry professionals.
                   </p>
                   <Link href="/blog/visit-to-nyse" className="text-emerald-600 dark:text-emerald-500 font-medium hover:text-emerald-700 dark:hover:text-emerald-400 transition-colors text-sm">
                     Read More

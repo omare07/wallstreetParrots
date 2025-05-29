@@ -176,8 +176,8 @@ export default function ResourcesPage() {
         
         <div className="bg-emerald-50 dark:bg-emerald-900/20 rounded-lg p-6">
           <h2 className="text-xl font-semibold mb-4 text-gray-900 dark:text-white">Club Resources</h2>
-          <p className="text-gray-700 dark:text-gray-300 mb-4">
-            As a member of the WallStreet Parrots club, you'll also have access to:
+          <p className="text-lg text-gray-700 dark:text-gray-300 mb-6">
+            As a member of the WallStreet Parrots club, you&apos;ll also have access to:
           </p>
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
             <li>Meeting presentations and handouts</li>

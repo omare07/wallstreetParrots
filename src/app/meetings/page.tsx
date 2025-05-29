@@ -50,7 +50,7 @@ export default function MeetingsPage() {
                 <span className="text-sm text-gray-500 dark:text-gray-400">Nov 2, 2023</span>
               </div>
               <p className="text-gray-700 dark:text-gray-300">
-                Learn the basics of analyzing stocks, including how to read financial statements, understand key metrics, and evaluate a company's potential.
+                Learn the basics of analyzing stocks, including how to read financial statements, understand key metrics, and evaluate a company&apos;s potential.
               </p>
             </div>
             
@@ -91,7 +91,7 @@ export default function MeetingsPage() {
           <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300 mb-6">
             <li>Notebook and pen for taking notes</li>
             <li>Laptop or tablet (optional but recommended)</li>
-            <li>Questions and topics you'd like to discuss</li>
+            <li>Questions and topics you&apos;d like to discuss</li>
             <li>Your enthusiasm and curiosity about investing!</li>
           </ul>
           

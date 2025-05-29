@@ -28,6 +28,7 @@ export const authenticateUser = (username: string, password: string): User | nul
   if (!user) return null;
   
   // Return user without password for security
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { password: _, ...userWithoutPassword } = user;
   return { ...userWithoutPassword, password: '' };
 };
@@ -38,6 +39,7 @@ export const getUserById = (id: string): User | null => {
   if (!user) return null;
   
   // Return user without password for security
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { password: _, ...userWithoutPassword } = user;
   return { ...userWithoutPassword, password: '' };
 }; 
